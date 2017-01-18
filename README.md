@@ -19,8 +19,8 @@ const taskHandler = function(task){
 ```javascript
 var taskQueue = new TaskQueue(taskHandler)
 .on('done', function(){
-  console.log('The queue is done! :)');
-  });
+	console.log('The queue is done! :)');
+});
 ```
 
 ### The task
